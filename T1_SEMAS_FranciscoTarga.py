@@ -10,7 +10,7 @@ def geradorNumsAleatorios(seed, a, c, m, num_aleatorios):
 X0 = 666666
 a = 12324
 c = 342423
-M = 54354
+M = 2**35
 
 numeros_aleatorios = geradorNumsAleatorios(X0, a, c, M, 1000)
 print(numeros_aleatorios)
