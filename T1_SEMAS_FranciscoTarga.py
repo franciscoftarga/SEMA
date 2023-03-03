@@ -1,3 +1,6 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
 def geradorNumsAleatorios(seed, a, c, m, num_aleatorios):
     x = seed
     numeros_aleatorios = []
@@ -14,3 +17,10 @@ M = 2**35
 
 numeros_aleatorios = geradorNumsAleatorios(X0, a, c, M, 1000)
 print(numeros_aleatorios)
+
+df = pd.DataFrame({'Numeros_Aleatorios': numeros_aleatorios})
+df.plot(kind='scatter', x=0, y=0)
+
+print(len(numeros_aleatorios))
+
+plt.show()
