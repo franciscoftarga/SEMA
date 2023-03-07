@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FilaSimples.iml" filepath="$PROJECT_DIR$/FilaSimples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeradorPseudoAleatorios.iml" filepath="$PROJECT_DIR$/GeradorPseudoAleatorios.iml" />
     </modules>
   </component>
 </project>
